@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="overlay"></div>
+      <div class="scanline"></div>
+      <div class="wrapper">
+      <div class="content clearfix">
+        <p id="infotext">Please Enter the Word you want to try.</p>
+        $: <p id="usertext"></p><span class="blinking-cursor">_</span>
+        <p id="auto-complete"></p>
+        <p id="return-info"></p>
+        <input type="hidden" id="input-field" rows="6" cols="16"></textarea>
+
+
+        <p class="clear"><br /></p>
+        <p id="list"></p>
+
+      </div>
+      </div>
+    </div>
+    <script src="js/compiled/terminal_helper.js" type="text/javascript"></script>
+
+  </body>
+</html>
