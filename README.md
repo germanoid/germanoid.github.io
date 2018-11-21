@@ -14,7 +14,7 @@ https://germanoid.github.io/terminal-helper/
 ---
 Please note:
 
-* You can only choose words with a chance to succeed. If you can't type a word, it's not the right one.
+* You can choose words without a chance to succeed. But it will not autocomplete. And tell it to you in capslock.
 * The Programm doesn't restart automatically. If you found the word, just press ESC for a full reset.
 * Tab = Autocomplete
 * Enter = Send input
