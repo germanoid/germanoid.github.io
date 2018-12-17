@@ -19,3 +19,4 @@ Please note:
 * Tab = Autocomplete
 * Enter = Send input
 * Backspace = Delete last character
+* Ctrl+Backspace OR Ctrl+c = Clear complete word
